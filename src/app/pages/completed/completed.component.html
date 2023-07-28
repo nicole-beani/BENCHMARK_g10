@@ -1,0 +1,16 @@
+<main>
+  <main>
+    <div *ngIf="!todos.length">
+      Recupero Tasks... Forse non c'è l'attività, si, no o dipende . Crea ->
+      <div>
+        <a routerLink="/todo">Inizia a creare la pagina</a>
+      </div>
+    </div>
+    <ul>
+      <li *ngFor="let todo of todos">
+        {{ todo.title }}
+        <button (click)="delete(todo)">-</button>
+      </li>
+    </ul>
+  </main>
+</main>

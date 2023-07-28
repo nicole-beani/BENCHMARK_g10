@@ -1,0 +1,18 @@
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly
+
+}
+
+li{
+  font-size: 30px;
+  background-color: rgba(0, 0, 255, 0.238);
+
+}
+
+
+li:hover{
+  background-color: rgba(204, 204, 255, 0.44);
+
+}
